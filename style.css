@@ -1,0 +1,562 @@
+/* google font link */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(0, 0, 0, 0.921);
+}
+
+
+/* common css */
+.padding-both {
+    padding: 30px 0;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.half-div {
+    width: 50%;
+}
+
+
+/* header part */
+.sitename>h3 {
+    font-size: 29px;
+    font-weight: 700;
+    color: yellow;
+}
+
+.sitenav li {
+    list-style: none;
+    margin-left: 27px;
+    margin-right: 30px;
+}
+
+.sitenav li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.469);
+}
+
+.yellow-button {
+    padding: 7px 11px;
+    font-weight: 600;
+    background-color: orange;
+}
+
+/* Banner part*/
+
+.banner-content h2 {
+    color: white;
+    font-size: 45px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+.banner-header {
+    display: flex;
+    justify-content: left;
+}
+
+.banner-header img {
+
+    width: 35px;
+    height: 45px;
+    margin: 0px 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.newb-header h1 {
+    color: orange;
+    font-size: 45px;
+    line-height: 70px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.newb-header {
+    display: flex;
+    justify-content: left;
+    color: white;
+    font-size: 45px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+.banner-content p {
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 7px 0px;
+}
+
+.banner-menu h2 {
+    color: whitesmoke;
+    font-size: 25px;
+    line-height: 45px;
+    font-weight: 250;
+}
+
+.banner-menu img {
+    height: 30px;
+    margin: 0px 7px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.banner-menu {
+    display: flex;
+    justify-content: left;
+}
+
+/* portfolio and hire me button part*/
+
+.button-container {
+    display: flex;
+    margin: 15px 0px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.portfolio {
+    background-color: #ff7300;
+    position: relative;
+    border: solid 1px white;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+
+}
+
+.portfolio .arrow {
+    margin-left: 5px;
+}
+
+.hire-me {
+    background-color: #555;
+}
+
+.hire-me {
+    border: solid 1px white;
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 0%;
+
+}
+
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.banner-logo img {
+    margin-top: 10px;
+    margin-right: 15px;
+
+}
+
+/* banner image part */
+
+.banner-image img {
+    padding-left: 80px;
+}
+
+/* banner bottom part */
+
+.banner-bottom {
+    background-color: black;
+    rotate: z -6deg;
+}
+
+.banner-option h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-right: 18px;
+}
+
+.banner-option img {
+    margin-right: 18px;
+}
+
+.banner-option {
+    padding: 35px 0;
+    display: flex;
+}
+
+/* about me part */
+
+.about-me {
+    padding: 120px 0;
+    color: white;
+}
+
+.abtme {
+    display: flex;
+    align-items: last baseline;
+}
+
+.about-me h1 {
+    font-size: 40px;
+}
+
+.about-me p {
+    color: gray;
+}
+
+.experience {
+    margin-left: 520px;
+    color: white;
+    text-align: right;
+}
+
+.experience h1 {
+    font-size: 30px;
+}
+
+/* my experience part */
+
+.my-experience {
+    margin: 0;
+    padding: 0;
+    background-image: url("BG.png");
+    color: #fff;
+}
+
+.exp-container {
+    padding: 80px 113px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-part {
+    color: white;
+    line-height: 30px;
+    max-width: 65%;
+    padding-top: 50px;
+}
+
+.experience-part h3 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 20px 0;
+
+}
+
+.experience-part h1 {
+    font-size: 50px;
+    margin: 40px 0;
+}
+
+.experience-list {
+    max-width: 50%;
+}
+
+.time-company {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-company {
+    padding-left: 180px;
+}
+
+.experience-item {
+    border-bottom: solid 1px white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.experience-duration,
+.experience-role,
+.experience-company {
+    display: block;
+}
+
+.experience-duration {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.experience-role {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.experience-company {
+    font-size: 16px;
+    color: #aaa;
+}
+
+/* awards part */
+
+.award-container {
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+
+.award-container h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+
+}
+
+.award-container p {
+    color: gray;
+}
+
+.award-name {
+    background-color: black;
+    color: white;
+    margin: 25px 0;
+    padding: 35px 35px;
+}
+
+.award-name p {
+    color: gray;
+}
+
+.award-desc {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.award-desc h2 {
+    font-weight: 400;
+}
+
+.award-desc h3 {
+    font-size: small;
+    font-weight: 800;
+}
+
+/* my portfolio part */
+
+.port-title h1 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding: 30px 0;
+}
+
+.port-title p {
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 30px
+}
+
+.port-button {
+    text-align: center;
+}
+
+.port-options {
+    font-size: 20px;
+    color: white;
+    padding: 15px 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    background-color: black;
+}
+
+.port-optionz {
+    font-size: 20px;
+    color: white;
+    padding: 15px 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    background-color: orange;
+}
+
+.content-part-one {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.content-part-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.port-image img {
+    width: 600px;
+    height: 400px;
+}
+
+.port-desc h3 {
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+    padding: 30px 0;
+}
+
+.port-desc h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.port-desc p {
+    color: gray;
+    padding: 30px 0;
+}
+
+/* contact part */
+
+.contact {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.contact h3 {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+.contact h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+
+
+form {
+    background-color: #FD6F001A;
+    padding: 50px 100px;
+}
+
+.form-title {
+    text-align: left;
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.name-mail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    color: white;
+}
+
+label {
+    /* display: block; */
+    margin-bottom: 5px;
+    /* font-weight: bold; */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #382d2511;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* footer part */
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-area h2 {
+    color: orange;
+    font-size: 34px;
+    line-height: 36px;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.foot-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-area p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons img {
+    width: 32.48px;
+    height: 32.48px;
+    padding: 40px 10px;
+}
+
+.extra-foot {
+    display: flex;
+    justify-content: center;
+    background-color: #fd6e0000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.extra {
+    color: orange;
+    margin-left: 4px;
+    margin-right: 4px;
+}

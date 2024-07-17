@@ -1,0 +1,114 @@
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 70%;
+    }
+
+    .sitenav li {
+        margin-left: 0;
+    }
+
+    .half-div {
+        width: 100%;
+    }
+
+    .flex-div {
+        flex-direction: column;
+    }
+
+    .banner-content h2 {
+        font-size: 26px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+
+    .banner-content h1 {
+        font-size: 26px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+
+    .banner-header img {
+
+        width: 25px;
+        height: 26px;
+        margin: 0px 8px;
+        margin-top: 8px;
+        align-items: center;
+    }
+
+    .banner-menu h2 {
+        font-size: 20px;
+        line-height: 40px;
+        font-weight: 200;
+    }
+
+    .banner-menu img {
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    .banner-image img {
+        padding-left: 20px;
+        width: 400px;
+        height: 500px;
+    }
+
+    .banner-bottom {
+        width: 100%;
+        rotate: z 0deg;
+        padding-left: 80px;
+    }
+
+    .banner-option {
+        flex-direction: column;
+    }
+
+    .banner-option img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .abtme {
+        align-items: center;
+    }
+
+    .about-me h1 {
+        font-size: 25px;
+    }
+
+    .about-me p {
+        font-size: smaller;
+    }
+
+    .exp-container {
+        flex-direction: column;
+    }
+
+    .experience {
+        margin-left: 100px;
+
+    }
+
+    .experience-part h1 {
+        font-size: 25px;
+        margin: 20px 0;
+    }
+
+    .experience-part h3 {
+        font-size: 20px;
+        font-style: italic;
+        font-weight: lighter;
+        margin: 10px 0;
+
+    }
+
+    .port-image img {
+        width: 280px;
+        height: 250px;
+    }
+
+    .form-title {
+        font-size: 1.5em;
+    }
+
+}
